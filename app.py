@@ -32,6 +32,7 @@ class ProductCatalog(Resource):
         # Set a product catalog
 
 
+
 api.add_resource(PortfolioOrders, "/portfolio")
 api.add_resource(KnowledgeBase, "/knowledgebase")
 api.add_resource(ChatResponse, "/bot")
